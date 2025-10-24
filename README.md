@@ -12,19 +12,19 @@ Each sample or temporal stage should have two files:
 
 When the data are loaded, files of the sample type are concatenated together across samples. This means that it is okay if your data are already combined into a single counts file and a single metadata file.
 
-## Metadata files (.meta.csv)
+## 1) Metadata files (.meta.csv)
 ```
 - The rows are cells and the columns are important characteristics (e.g., time_point, cell_type, sample_id). 
 - The first column in the metadata file should be the unique cell IDs
 - When the metadata is loaded, the cell IDs become the index and are used to match cells to their corresponding count data. 
 ```
-## Count files (.cnt.csv)
-
+## 2) Count files (.cnt.csv)
+```
 - The rows are genes and columns are cells. The values can be processed data or raw counts.
 - If the `--do_preprocess` flag is given to the bash script, the `sc_preprocess` function will process the raw count data using the standard Scanpy pipeline (i.e., normalize, log transform, scale) and 
+```
 
 # Running the pipeline
-
 You can execute main python training loop (`TempNet_train.py`) with the bash script `run_TempNet.sh` and specify your desired parameters. A full list of arguments is available near the top of the `TempNet_train.py`. 
 
 The `run_TempNet_rev.sh` script is a more detailed example specifying more arguments, including the addition of the flag to use gradient reversal (`--use_rev`).
