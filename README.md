@@ -50,6 +50,7 @@ The `plot_umap` function in `TempNet_utils.py` will visualize the embedding usin
 # Contact information
 
 Please contact our team if you have any questions:
+
 Alexa Hassien (Alexa.Hassien@utsouthwestern.edu)
 
 Xue Xiao (Xiao.Xue@UTSouthwestern.edu)
