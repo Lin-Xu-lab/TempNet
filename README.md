@@ -47,3 +47,17 @@ The main output of TempNet is a low-dimensional embedding of all input data gene
 
 The `plot_umap` function in `TempNet_utils.py` will visualize the embedding using scanpy and matplotlib functions. This function is already called at the end of the main training funtion `TempNet_train.py`, and the image should save to the same location as the embedding. 
 
+# 4. Contact information
+
+Please contact our team if you have any questions:
+```
+Alexa Hassien (Alexa.Hassien@utsouthwestern.edu)
+Xue Xiao (Xiao.Xue@UTSouthwestern.edu)
+Yuansheng Zhou (Yuansheng.Zhou@UTSouthwestern.edu)
+Lin Xu (Lin.Xu@UTSouthwestern.edu)
+```
+Please contact Alexa Hassien or Xue Xiao for programming questions about the *.py
+
+# Copyright information 
+
+Please see the "LICENSE" file for the copyright information.
