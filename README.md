@@ -1,7 +1,7 @@
 # TempNet: Temporal Neural Network
 
 TempNet is a deep learning model designed to integrate temporal single-cell RNA-seq data with sequential embedding alignment.
-
+![Fig](/Image/model_diagram.png) 
 ## Input data
 
 Each sample or temporal stage should have two files: 
