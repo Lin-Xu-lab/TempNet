@@ -1,6 +1,6 @@
 # Introduction
 
-TempNet is a deep learning model designed to integrate temporal single-cell RNA-seq data with sequential embedding alignment.
+TempNet is a deep learning framework designed to integrate and align time-series single-cell omics data. TempNet encodes single-cell omics data to produce a highly informative latent space embedding that supports clustering, visualization, and downstream analyses. 
 ![Fig](/Image/model_diagram.png) 
 # Input data
 
