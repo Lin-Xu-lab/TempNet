@@ -5,17 +5,19 @@ TempNet is a deep learning framework designed to integrate and align time-series
 # Input data
 
 Each sample or temporal stage should have two files: 
+```
 - a counts file (sample1.cnt.csv)
 - a metadata file (sample1.meta.csv)
+```
 
 When the data are loaded, files of the sample type are concatenated together across samples. This means that it is okay if your data are already combined into a single counts file and a single metadata file.
 
 ## Metadata files (.meta.csv)
-
+```
 - The rows are cells and the columns are important characteristics (e.g., time_point, cell_type, sample_id). 
 - The first column in the metadata file should be the unique cell IDs
 - When the metadata is loaded, the cell IDs become the index and are used to match cells to their corresponding count data. 
-
+```
 ## Count files (.cnt.csv)
 
 - The rows are genes and columns are cells. The values can be processed data or raw counts.
